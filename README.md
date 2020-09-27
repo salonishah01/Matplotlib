@@ -36,7 +36,7 @@ Correlogram is used to visually see the correlation metric between all possible 
 
 ### 9. Pairwise Plot
 
-Pairwise plot is a favorite in exploratory analysis to understand the relationship between all possible pairs of numeric variables. It is a must have tool for bivariate analysis.
+Pairwise plot is a favorite in exploratory analysis to understand the relationship between all possible pairs of numeric variables. It is a must have tool for bivariate analysis.-  
 
 ### 10. Diverging Bars
 
