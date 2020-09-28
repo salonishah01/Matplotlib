@@ -36,8 +36,48 @@ Correlogram is used to visually see the correlation metric between all possible 
 
 ### 9. Pairwise Plot
 
-Pairwise plot is a favorite in exploratory analysis to understand the relationship between all possible pairs of numeric variables. It is a must have tool for bivariate analysis.-  
+Pairwise plot is a favorite in exploratory analysis to understand the relationship between all possible pairs of numeric variables. It is a must have tool for bivariate analysis.
+
+## Deviation
 
 ### 10. Diverging Bars
 
 If you want to see how the items are varying based on a single metric and visualize the order and amount of this variance, the diverging bars is a great tool. It helps to quickly differentiate the performance of groups in your data and is quite intuitive and instantly conveys the point.
+
+### 11. Diverging Texts
+
+Diverging texts is similar to diverging bars and it preferred if you want to show the value of each items within the chart in a nice and presentable way.
+
+### 12. Diverging Dot Plot
+
+Divering dot plot is also similar to the diverging bars. However compared to diverging bars, the absence of bars reduces the amount of contrast and disparity between the groups.
+
+### 13. Diverging Lollipop Chart with Markers
+
+Lollipop with markers provides a flexible way of visualizing the divergence by laying emphasis on any significant datapoints you want to bring attention to and give reasoning within the chart appropriately.
+
+### 14. Area Chart
+
+By coloring the area between the axis and the lines, the area chart throws more emphasis not just on the peaks and troughs but also the duration of the highs and lows. The longer the duration of the highs, the larger is the area under the line.
+
+## Ranking 
+
+### 15. Ordered Bar Chart
+
+Ordered bar chart conveys the rank order of the items effectively. But adding the value of the metric above the chart, the user gets the precise information from the chart itself.
+
+### 16. Lollipop Chart
+
+Lollipop chart serves a similar purpose as a ordered bar chart in a visually pleasing way.
+
+### 17. Dot Plot
+
+The dot plot conveys the rank order of the items. And since it is aligned along the horizontal axis, you can visualize how far the points are from each other more easily.
+
+### 18. Slope Chart
+
+Slope chart is most suitable for comparing the ‘Before’ and ‘After’ positions of a given person/item.
+
+### 19. Dumbbell Plot
+
+Dumbbell plot conveys the ‘before’ and ‘after’ positions of various items along with the rank ordering of the items. Its very useful if you want to visualize the effect of a particular project / initiative on different objects.
