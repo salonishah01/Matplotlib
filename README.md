@@ -81,3 +81,25 @@ Slope chart is most suitable for comparing the ‘Before’ and ‘After’ posi
 ### 19. Dumbbell Plot
 
 Dumbbell plot conveys the ‘before’ and ‘after’ positions of various items along with the rank ordering of the items. Its very useful if you want to visualize the effect of a particular project / initiative on different objects.
+
+## Distribution
+
+### 20. Histogram for Continuous Variable
+
+Histogram shows the frequency distribution of a given variable. The representation groups the frequency bars based on a categorical variable giving a greater insight about the continuous variable and the categorical variable in tandem.
+
+### 21. Histogram for Categorical Variable
+
+The histogram of a categorical variable shows the frequency distribution of a that variable. By coloring the bars, you can visualize the distribution in connection with another categorical variable representing the colors.
+
+### 22. Density Plot
+
+Density plots are a commonly used tool visualise the distribution of a continuous variable. By grouping them by the ‘response’ variable, you can inspect the relationship between the X and the Y. The below case if for representational purpose to describe how the distribution of city mileage varies with respect the number of cylinders.
+
+### 23. Density Curves with Histogram
+
+Density curve with histogram brings together the collective information conveyed by the two plots so you can have them both in a single figure instead of two.
+
+### 24. Joy Plot
+
+Joy Plot allows the density curves of different groups to overlap, it is a great way to visualize the distribution of a larger number of groups in relation to each other. It looks pleasing to the eye and conveys just the right information clearly. It can be easily built using the joypy package which is based on matplotlib.
