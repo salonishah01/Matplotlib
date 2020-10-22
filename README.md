@@ -113,7 +113,7 @@ Distributed dot plot shows the univariate distribution of points segmented by gr
 Box plots are a great way to visualize the distribution, keeping the median, 25th 75th quartiles and the outliers in mind. However, you need to be careful about interpreting the size the boxes which can potentially distort the number of points contained within that group. So, manually providing the number of observations in each box can help overcome this drawback.
 
 ### 27. Dot + Box Plot
--
+
 Dot + Box plot Conveys similar information as a boxplot split in groups. The dots, in addition, gives a sense of how many data points lie within each group.
 
 ### 28. Violin Plot
@@ -127,3 +127,21 @@ Population pyramid can be used to show either the distribution of the groups ord
 ### 30. Categorical Plots
 
 Categorical plots provided by the seaborn library can be used to visualize the counts distribution of 2 ore more categorical variables in relation to each other.
+
+## Composition
+
+### 31. Waffle Chart
+
+The waffle chart can be created using the pywaffle package and is used to show the compositions of groups in a larger population.
+
+### 32. Pie Chart
+
+Pie chart is a classic way to show the composition of groups. However, its not generally advisable to use nowadays because the area of the pie portions can sometimes become misleading. So, if you are to use pie chart, its highly recommended to explicitly write down the percentage or numbers for each portion of the pie.
+
+### 33. Treemap
+
+Tree map is similar to a pie chart and it does a better work without misleading the contributions by each group.
+
+### 34. Bar Chart
+
+Bar chart is a classic way of visualizing items based on counts or any given metric. In below chart, I have used a different color for each item, but you might typically want to pick one color for all items unless you to color them by groups. The color names get stored inside all_colors in the code below. You can change the color of the bars by setting the color parameter in plt.plot().
