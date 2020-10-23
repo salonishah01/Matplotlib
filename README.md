@@ -145,3 +145,26 @@ Tree map is similar to a pie chart and it does a better work without misleading 
 ### 34. Bar Chart
 
 Bar chart is a classic way of visualizing items based on counts or any given metric. In below chart, I have used a different color for each item, but you might typically want to pick one color for all items unless you to color them by groups. The color names get stored inside all_colors in the code below. You can change the color of the bars by setting the color parameter in plt.plot().
+
+## Change
+
+### 35. Time Series Plot
+
+Time series plot is used to visualise how a given metric changes over time.
+
+### 36. Time Series with Peaks and Troughs Annotated
+
+The time series plots all the the peaks and troughs and annotates the occurence of selected special events.
+
+### 37. Autocorrelation (ACF) and Partial Autocorrelation (PACF) Plot
+
+The ACF plot shows the correlation of the time series with its own lags. Each vertical line (on the autocorrelation plot) represents the correlation between the series and its lag starting from lag 0. The blue shaded region in the plot is the significance level. Those lags that lie above the blue line are the significant lags.
+PACF on the other had shows the autocorrelation of any given lag (of time series) against the current series, but with the contributions of the lags-inbetween removed.
+
+### 38. Cross Correlation plot
+
+Cross correlation plot shows the lags of two time series with each other.
+
+### 39.Time Series Decomposition Plot
+
+Time series decomposition plot shows the break down of the time series into trend, seasonal and residual components.
