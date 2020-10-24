@@ -168,3 +168,26 @@ Cross correlation plot shows the lags of two time series with each other.
 ### 39.Time Series Decomposition Plot
 
 Time series decomposition plot shows the break down of the time series into trend, seasonal and residual components.
+
+
+### 40. Multiple Time Series
+
+You can plot multiple time series that measures the same value on the same chart.
+
+### 41. Plotting with different scales using secondary Y axis
+
+If you want to show two time series that measures two different quantities at the same point in time, you can plot the second series againt the secondary Y axis on the right.
+
+### 42. Time Series with Error Bands
+
+Time series with error bands can be constructed if you have a time series dataset with multiple observations for each time point (date / timestamp). Below you can see a couple of examples based on the orders coming in at various times of the day. And another example on the number of orders arriving over a duration of 45 days.
+
+In this approach, the mean of the number of orders is denoted by the white line. And a 95% confidence bands are computed and drawn around the mean.
+
+### 43. Stacked Area Chart
+
+Stacked area chart gives an visual representation of the extent of contribution from multiple time series so that it is easy to compare against each other.
+
+### 44. Area Chart UnStacked
+
+An unstacked area chart is used to visualize the progress (ups and downs) of two or more series with respect to each other. In the chart below, you can clearly see how the personal savings rate comes down as the median duration of unemployment increases. The unstacked area chart brings out this phenomenon nicely.
